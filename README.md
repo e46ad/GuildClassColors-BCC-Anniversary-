@@ -1,33 +1,52 @@
-# GuildClassColors-BCC-Anniversary-2026
-Adds class colors to the guild roster for better visibility and a modernized UI experience
+# GuildClassColors BCC (Anniversary 2026 Edition)
 
-# GuildClassColors BCC (Anniversary 2.5.5)
-
-**GuildClassColors** is a lightweight, high-performance addon for the **Burning Crusade Classic Anniversary (2026)** client. It replaces the default white class text in the Guild Roster with vibrant, high-visibility class colors, modernizing the social interface without breaking the "Classic" feel.
+A lightweight, performance-optimized World of Warcraft addon for the **Burning Crusade Classic Anniversary (2.5.5)** client. This addon brings life to your guild roster by replacing the default white text in the Class column with vibrant, high-visibility class colors.
 
 ---
 
-## ✨ Features at a Glance
-* 🎨 **Vibrant Class Colors:** Instantly identify guild mates by their class color.
-* 🛡️ **100% Taint-Free:** Features a unique "Hard-Gate" safety check to prevent `ADDON_ACTION_FORBIDDEN` errors when managing guild ranks.
-* ⚡ **Force-Painter Engine:** Ensures colors remain visible even when the default UI tries to reset them to white.
-* 🌍 **Global Support:** Automatically localizes class names for all game languages (DE, FR, ES, RU, etc.).
-* 🚀 **Optimized Performance:** Consumes zero CPU/Memory when the Guild window is closed.
+## 🚀 Key Features
+
+* **Class-Colored Roster:** Instantly identifies members by their class color in the Guild Roster.
+* **NEW: Toggle System:** Don't want colors right now? Use `/gcc off` to disable the addon without needing to uninstall it.
+* **Taint-Proof Design:** Features a unique "Hard Gate" safety system that automatically suspends updates when you are editing guild ranks, preventing the common `ADDON_ACTION_FORBIDDEN` error.
+* **Force-Refresh Engine:** Unlike older addons that flicker, our "Painter" system ensures colors stay visible even when the default UI tries to reset them.
+* **Universal Language Support:** Automatically localizes class names for all client languages (DE, FR, ES, RU, etc.).
+* **Zero Performance Impact:** The addon is "parented" to the Guild Frame, meaning it consumes **0% CPU** unless your guild roster is actually open.
 
 ---
 
-## 🛠️ Quick Commands
+## 🛠 Commands
+
+Type **`/gcc`** in-game to access the help menu:
+
 | Command | Action |
 | :--- | :--- |
-| `/gcc` | Opens the Anniversary help menu. |
-| `/gcc links` | Opens a Teal-themed popup to copy project URLs. |
+| `/gcc` | Displays the in-game command guide. |
+| `/gcc on` | Enables class coloring (Default). |
+| `/gcc off` | Disables class coloring. |
+| `/gcc links` | Opens an interactive popup to copy GitHub and CurseForge URLs. |
 
 ---
 
-## 📦 Installation
-1. Download the [Latest Release](https://github.com/e46ad/GuildClassColors-BCC-Anniversary-/releases).
-2. Extract into your `_classic_\Interface\AddOns\` folder.
-3. Ensure the folder is named `GuildClassColors`.
+## 📂 Installation
+
+1. Download the latest release.
+2. Extract the `GuildClassColors` folder.
+3. Paste it into your WoW directory: 
+   `_classic_\Interface\AddOns\`
+4. Restart World of Warcraft.
 
 ---
+
+## 📋 Latest Changelog (v1.3.0)
+
+* **ADDED:** On/Off toggle functionality via `/gcc on` and `/gcc off`.
+* **ADDED:** SavedVariables support (remembers your On/Off setting after logout).
+* **FIXED:** Restored the interactive link popup logic for GitHub/CurseForge URLs.
+* **IMPROVED:** Updated login greeting with gold-text command instructions.
+
+---
+
+## ⚖️ License & Copyright
+
 © 2026 **Adamd**. Licensed under the **MIT License**.
