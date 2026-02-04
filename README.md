@@ -7,7 +7,8 @@ A lightweight, performance-optimized World of Warcraft addon for the **Burning C
 ## 🚀 Key Features
 
 * **Class-Colored Roster:** Instantly identifies members by their class color in the Guild Roster.
-* **NEW: Toggle System:** Don't want colors right now? Use `/gcc off` to disable the addon without needing to uninstall it.
+* **NEW: Modern Settings Menu:** Fully integrated into the **Interface > AddOns** menu for easy configuration.
+* **Dedicated Toggle Buttons:** Includes physical **ON** and **OFF** buttons inside the settings panel for instant control.
 * **Taint-Proof Design:** Features a unique "Hard Gate" safety system that automatically suspends updates when you are editing guild ranks, preventing the common `ADDON_ACTION_FORBIDDEN` error.
 * **Force-Refresh Engine:** Unlike older addons that flicker, our "Painter" system ensures colors stay visible even when the default UI tries to reset them.
 * **Universal Language Support:** Automatically localizes class names for all client languages (DE, FR, ES, RU, etc.).
@@ -21,9 +22,9 @@ Type **`/gcc`** in-game to access the help menu:
 
 | Command | Action |
 | :--- | :--- |
-| `/gcc` | Displays the in-game command guide. |
-| `/gcc on` | Enables class coloring (Default). |
-| `/gcc off` | Disables class coloring. |
+| `/gcc` | Opens the Modern Settings Panel in the AddOns menu. |
+| `/gcc on` | Enables class coloring via chat. |
+| `/gcc off` | Disables class coloring via chat. |
 | `/gcc links` | Opens an interactive popup to copy GitHub and CurseForge URLs. |
 
 ---
@@ -38,15 +39,16 @@ Type **`/gcc`** in-game to access the help menu:
 
 ---
 
-## 📋 Latest Changelog (v1.3.0)
+## 📋 Latest Changelog (v1.4.1)
 
-* **ADDED:** On/Off toggle functionality via `/gcc on` and `/gcc off`.
-* **ADDED:** SavedVariables support (remembers your On/Off setting after logout).
-* **FIXED:** Restored the interactive link popup logic for GitHub/CurseForge URLs.
-* **IMPROVED:** Updated login greeting with gold-text command instructions.
+* **ADDED:** Full Integration into the **Interface > AddOns** game menu.
+* **ADDED:** Physical UI Buttons for **ON**, **OFF**, and **Reload UI** inside the settings panel.
+* **ADDED:** Anniversary branding and Gold-text credits: **"© By Adamd-Spineshatter"**.
+* **FIXED:** Resolved the "Chat Freeze" bug caused by legacy API calls in the 2.5.5 client.
+* **IMPROVED:** Login message now dynamically shows status in Green (**ON**) or Red (**OFF**).
 
 ---
 
 ## ⚖️ License & Copyright
 
-© 2026 **Adamd**. Licensed under the **MIT License**.
+© 2026 **Adamd-Spineshatter**. Licensed under the **MIT License**.
