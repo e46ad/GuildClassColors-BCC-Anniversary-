@@ -1,4 +1,4 @@
-# GuildClassColors BCC (Anniversary 2026 Edition)
+# GuildClassColors BCC (Anniversary 2026 Edition) V1.4.1 Feb 4th 26
 
 A lightweight, performance-optimized World of Warcraft addon for the **Burning Crusade Classic Anniversary (2.5.5)** client. This addon brings life to your guild roster by replacing the default white text in the Class column with vibrant, high-visibility class colors.
 
