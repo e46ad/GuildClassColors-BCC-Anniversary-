@@ -52,3 +52,5 @@ Type **`/gcc`** in-game to access the help menu:
 ## ⚖️ License & Copyright
 
 © 2026 **Adamd-Spineshatter**. Licensed under the **MIT License**.
+📦 File Verification (SHA256)
+09a4bab4f85850e001f4bff41f73e63a9535b7aaa9324158d4052497db0d4d8b
