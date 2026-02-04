@@ -23,8 +23,6 @@ Type **`/gcc`** in-game to access the help menu:
 | Command | Action |
 | :--- | :--- |
 | `/gcc` | Opens the Modern Settings Panel in the AddOns menu. |
-| `/gcc on` | Enables class coloring via chat. |
-| `/gcc off` | Disables class coloring via chat. |
 | `/gcc links` | Opens an interactive popup to copy GitHub and CurseForge URLs. |
 
 ---
