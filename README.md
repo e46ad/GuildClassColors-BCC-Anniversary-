@@ -23,6 +23,8 @@ Type **`/gcc`** in-game to access the help menu:
 | Command | Action |
 | :--- | :--- |
 | `/gcc` | Opens the Modern Settings Panel in the AddOns menu. |
+| `/gcc on` | Enables class coloring via chat. |
+| `/gcc off` | Disables class coloring via chat. |
 | `/gcc links` | Opens an interactive popup to copy GitHub and CurseForge URLs. |
 
 ---
@@ -32,8 +34,10 @@ Type **`/gcc`** in-game to access the help menu:
 1. Download the latest release.
 2. Extract the `GuildClassColors` folder.
 3. Paste it into your WoW directory: 
-   `_classic_\Interface\AddOns\`
-4. Restart World of Warcraft.
+   `World of Warcraft\_anniversary_\Interface\AddOns`
+4. Ensure the final path looks like this:
+   `World of Warcraft\_anniversary_\Interface\AddOns\GuildClassColors`
+5. Restart World of Warcraft.
 
 ---
 
